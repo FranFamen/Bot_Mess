@@ -2,7 +2,7 @@ from fbchat import Client
 from fbchat.models import *
 import random
 import pandas
-client = Client("FranFamen", "patrycja00")
+client = Client(input("Login:"), input("Hasło"))
 
 thread_id = "100000210704616"
 thread_type = ThreadType.USER
